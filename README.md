@@ -19,6 +19,14 @@ To get started with the Grocery Store API, follow the steps below.
 ### Installation
 
 1. Clone this repository to your local machine.
+   this command to download it to you system from the repo
+
+```bash
+git clone https://github.com/aliyaghmaie/grocery-store-done.git
+```
+
+just copy it and past in cmd
+
 2. Navigate to the project directory in your terminal.
 3. Install dependencies:
    ```bash
@@ -31,9 +39,11 @@ To get started with the Grocery Store API, follow the steps below.
    The API server will run at `http://localhost:3000`.
 
 ## API Endpoints
+
 <!-- http://localhost:3000/add-product
 http://localhost:3000/add-categories
  -->
+
 ### Categories
 
 - **GET /api/categories**

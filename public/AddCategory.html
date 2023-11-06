@@ -4,14 +4,21 @@
 <head>
   <title>Add Product</title>
   <style>
-    body {
-      background-color: transparent;
+        .forms{
+          background-color: transparent;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
       margin: 0;
-    }
+        }
+
+        .button-container {
+            display: flex;
+            /* flex-direction: column; */
+            /* align-items: flex-end; */
+            padding: 10px;
+        }
 
     /*input{ border: 1px solid; }*/
     td:first-child {
@@ -79,8 +86,12 @@
 </head>
 
 <body>
-
-  <form action="http://localhost:3000/api/categories/" method="POST" enctype="multipart/form-data">
+  <div class="button-container">
+    <a href="http://localhost:3000/add-product"> <button class="button-6" role="button">Add Product</button></a>
+    <a href="http://localhost:3000/add-categories"> <button class="button-6" role="button">Add Category</button></a>
+    <a href="http://localhost:3000/"> <button class="button-6" role="button">Home</button></a>
+  </div>
+  <form class="forms" action="http://localhost:3000/api/categories/" method="POST" enctype="multipart/form-data">
     <fieldset>
       <legend>
         <h3>Add Category</h3>
